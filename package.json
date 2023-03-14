@@ -1,0 +1,22 @@
+{
+  "name": "jest_learning_exercises",
+  "version": "1.0.0",
+  "description": "![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/James-Glennon/jest_learning_exercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/James-Glennon/jest_learning_exercises/issues"
+  },
+  "homepage": "https://github.com/James-Glennon/jest_learning_exercises#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
