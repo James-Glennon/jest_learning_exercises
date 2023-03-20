@@ -1,5 +1,5 @@
 
-const addition = require("./calc");
+const { addition , subtraction } = require("./calc");
 
 describe("Calculator", () => {
     describe("Addition function", () => {
@@ -19,10 +19,28 @@ describe("Calculator", () => {
             expect(addition("panda", "moose")).toBe(NaN);
         })
     })
-    /*
+    
     describe("Subtraction function",() => {
-        
+        test("should return 22 for 42 - 20", () => {
+            expect(subtraction(42, 20)).toBe(22);
+        })
+        test("should return 11 for 44 - 33", () => {
+            expect(subtraction(44, 33)).toBe(11);
+        })
+        test("should return -33 for 11 - 44", () => {
+            expect(subtraction(11, 44)).toBe(-33);
+        })
+        test("should return error for no value provided", () => {
+            expect(subtraction()).toBe(NaN);
+        })
+        test("should return error for one nonsense value", () => {
+            expect(subtraction("panda", 22)).toBe(NaN);
+        })
+        test("should return error for two nonsense value", () => {
+            expect(subtraction("panda", "moose")).toBe(NaN);
+        })
     })
+    /*
     describe("Multiply function",() => {
         
     })
